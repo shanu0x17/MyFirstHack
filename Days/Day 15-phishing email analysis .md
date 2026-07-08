@@ -1,5 +1,5 @@
 ============================================================
-               PHISHING EMAIL ANALYSIS REPORT
+##               PHISHING EMAIL ANALYSIS REPORT
 ============================================================
 
 Analyst:        Shantanu Gayke
@@ -9,7 +9,7 @@ Methodology:    Headers > Sender > Content > Links > Verdict
 
 
 ------------------------------------------------------------
-1. EMAIL METADATA
+##1. EMAIL METADATA
 ------------------------------------------------------------
 
 Subject:        Action Required: Your Payment Is Waiting –
@@ -27,7 +27,7 @@ Recipient:      student@example.com (Simulated)
 
 
 ------------------------------------------------------------
-2. EXECUTIVE SUMMARY
+##2. EXECUTIVE SUMMARY
 ------------------------------------------------------------
 
 The email is classified as a phishing attempt with high
@@ -40,7 +40,7 @@ information.
 
 
 ------------------------------------------------------------
-3. HEADER ANALYSIS
+##3. HEADER ANALYSIS
 ------------------------------------------------------------
 
 SPF:            Not Available (Simulated Sample)
@@ -57,7 +57,7 @@ Reverse DNS:    Not Available
 
 
 ------------------------------------------------------------
-4. SENDER DOMAIN ANALYSIS
+##4. SENDER DOMAIN ANALYSIS
 ------------------------------------------------------------
 
 Domain:           allegro-lokalnie-support.com
@@ -76,7 +76,7 @@ Lookalike of:     allegrolokalnie.pl
 
 
 ------------------------------------------------------------
-5. CONTENT INDICATORS
+##5. CONTENT INDICATORS
 ------------------------------------------------------------
 
 [x] Urgency:
@@ -103,7 +103,7 @@ Lookalike of:     allegrolokalnie.pl
 
 
 ------------------------------------------------------------
-6. LINK ANALYSIS
+##6. LINK ANALYSIS
 ------------------------------------------------------------
 
 Visible link text:
@@ -127,7 +127,7 @@ to capture user credentials or payment information.
 
 
 ------------------------------------------------------------
-7. VERDICT
+##7. VERDICT
 ------------------------------------------------------------
 
 Classification:   PHISHING
@@ -149,7 +149,7 @@ be credential or payment information theft.
 
 
 ------------------------------------------------------------
-8. RECOMMENDED ACTIONS
+##8. RECOMMENDED ACTIONS
 ------------------------------------------------------------
 
 If you received this email:
@@ -180,5 +180,5 @@ If you clicked the link:
 
 
 ============================================================
-                     END OF REPORT
+##                     END OF REPORT
 ============================================================
