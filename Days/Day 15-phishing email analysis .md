@@ -1,11 +1,11 @@
 ============================================================
-##               PHISHING EMAIL ANALYSIS REPORT
+#               PHISHING EMAIL ANALYSIS REPORT
 ============================================================
 
-Analyst:        Shantanu Gayke
-Analysis Date:  08 July 2026
-Engagement:     Suspected Phishing Email Triage
-Methodology:    Headers > Sender > Content > Links > Verdict
+- Analyst:        Shantanu Gayke
+- Analysis Date:  08 July 2026
+- Engagement:     Suspected Phishing Email Triage
+- Methodology:    Headers > Sender > Content > Links > Verdict
 
 
 ------------------------------------------------------------
@@ -79,26 +79,26 @@ Lookalike of:     allegrolokalnie.pl
 ## 5. CONTENT INDICATORS
 ------------------------------------------------------------
 
-[x] Urgency:
+- Urgency:
     "Verify your account within 24 hours."
 
-[x] Generic greeting:
+- Generic greeting:
     "Dear Customer"
 
-[ ] Spelling/grammar errors:
+- Spelling/grammar errors:
     None observed
 
-[x] Mismatched branding:
+- Mismatched branding:
     Claims to represent Allegro Lokalnie but sender
     domain is unofficial.
 
-[x] Authority impersonation:
+- Authority impersonation:
     Pretends to be Allegro Lokalnie Security Team.
 
-[ ] Threat:
+- Threat:
     No direct legal threats.
 
-[ ] Reward bait:
+- Reward bait:
     No prize or reward offered.
 
 
@@ -154,31 +154,31 @@ be credential or payment information theft.
 
 If you received this email:
 
-[x] Do not click any links.
+- Do not click any links.
 
-[x] Do not enter your login credentials.
+- Do not enter your login credentials.
 
-[x] Report the email as phishing.
+- Report the email as phishing.
 
-[x] Delete the email after reporting.
+- Delete the email after reporting.
 
-[x] Verify account status only through the official
+- Verify account status only through the official
     Allegro website.
 
 If you clicked the link:
 
-[x] Change your Allegro account password immediately.
+- Change your Allegro account password immediately.
 
-[x] Enable Multi-Factor Authentication (MFA).
+- Enable Multi-Factor Authentication (MFA).
 
-[x] Monitor your account for unauthorized activity.
+- Monitor your account for unauthorized activity.
 
-[x] Run a malware scan on your device.
+- Run a malware scan on your device.
 
-[x] Contact Allegro Support if payment information
+- Contact Allegro Support if payment information
     was submitted.
 
 
 ============================================================
-##                     END OF REPORT
+#                   END OF REPORT
 ============================================================
