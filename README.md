@@ -1,131 +1,117 @@
 # 🛡️ MyFirstHack Cybersecurity Journey
 
-> **Documenting my journey from cybersecurity foundations to hands-on security operations — one concept, lab, and investigation at a time.**
-
----
-
-## 👋 About This Repository
+> **Documenting my journey from technical foundations to practical cybersecurity — one phase at a time.**
 
 This repository documents my complete learning journey through the **MyFirstHack Cybersecurity Program**.
 
-What started with understanding computers, the internet, and digital systems gradually progresses into networking, Linux, cybersecurity fundamentals, CompTIA Security+ concepts, and eventually a specialised cybersecurity path.
+The journey begins with understanding computers, the internet, and digital systems, then progresses through networking, Linux, cybersecurity fundamentals, Security+ concepts, and finally a specialised cybersecurity track.
 
-The purpose of this repository is not just to track completion.
-
-It is my personal cybersecurity knowledge base where I document:
-
-- 📚 Concepts and technical notes
-- 🔬 Hands-on labs and practical exercises
-- 🔎 Security investigations and analysis reports
-- 🛠️ Tools, commands, and techniques
-- 🧠 Key lessons and observations from my learning journey
-
-The repository will continue to evolve as I progress through the roadmap.
+The goal of this repository is to build a structured and revisitable cybersecurity knowledge base while documenting the practical skills, projects, labs, and reports completed throughout the program.
 
 ---
 
-# 🗺️ Learning Roadmap
+## 🗺️ Learning Roadmap
 
-## 🔵 Phase 1 — Foundations
+The learning journey is divided into three major phases:
 
-**Duration:** 90 Days  
-**Focus:** Building strong technical and cybersecurity fundamentals.
+### 🔵 Phase 1 — Foundations
 
-| Module | Focus Area | Days | Status |
-|--------|------------|------|--------|
-| **1.1** | 🌐 The Digital World | 1–20 | 🟡 In Progress |
-| **1.2** | 🌍 How Networks Work | 21–45 | ⚪ Upcoming |
-| **1.3** | 🐧 Linux & The Command Line | 46–65 | ⚪ Upcoming |
-| **1.4** | 🔐 Cybersecurity Fundamentals | 66–90 | ⚪ Upcoming |
+> **Status: 🟡 In Progress**
 
-### What Phase 1 Covers
+A 90-day foundation phase focused on developing a strong understanding of computers, networking, Linux, and core cybersecurity concepts.
 
-- How computers and digital systems work
+| Module | Focus Area | Duration | Status |
+| :--- | :--- | :---: | :---: |
+| **1.1** | 🌐 The Digital World | Days 1–20 | 🟡 In Progress |
+| **1.2** | 🌍 How Networks Work | Days 21–45 | ⚪ Upcoming |
+| **1.3** | 🐧 Linux & The Command Line | Days 46–65 | ⚪ Upcoming |
+| **1.4** | 🔐 Cybersecurity Fundamentals | Days 66–90 | ⚪ Upcoming |
+
+#### Topics covered throughout this phase include:
+
+- Computer and digital system fundamentals
 - Internet and web fundamentals
-- IP addresses, DNS, ports, and protocols
-- Network security and traffic analysis
-- Linux and command-line fundamentals
-- Cybersecurity principles and terminology
-- CIA Triad and security controls
-- Threats, attacks, and defensive concepts
-- Encryption and security fundamentals
+- Data and digital communication
+- Authentication and password security
+- IP addressing and network communication
+- DNS, ports, and protocols
+- Firewalls and network security
+- Network traffic analysis with Wireshark
+- Linux fundamentals
+- Bash and command-line usage
+- Cybersecurity principles
+- CIA Triad
+- Threats and defensive concepts
+- Encryption fundamentals
 
 ---
 
-## 🟡 Phase 2 — CompTIA Security+
+### 🟡 Phase 2 — CompTIA Security+
 
-**Duration:** 30 Days  
-**Focus:** Developing structured knowledge across core security domains.
+> **Status: ⚪ Upcoming**
+
+A 30-day phase focused on building structured knowledge across the major domains of cybersecurity and security operations.
 
 | Module | Focus Area | Status |
-|--------|------------|--------|
+| :--- | :--- | :---: |
 | **2.1** | General Security Concepts | ⚪ Upcoming |
 | **2.2** | Threats, Vulnerabilities & Mitigations | ⚪ Upcoming |
 | **2.3** | Security Architecture | ⚪ Upcoming |
 | **2.4** | Security Operations | ⚪ Upcoming |
 | **2.5** | Governance, Risk & Compliance | ⚪ Upcoming |
-| **2.6** | Mock Exam & Knowledge Assessment | ⚪ Upcoming |
+| **2.6** | Mock Exam | ⚪ Upcoming |
 
-This phase will cover areas including:
+#### This phase covers areas such as:
 
 - Security controls and frameworks
 - Cryptography concepts
-- Threat actors and attack techniques
+- Change management
+- Threat actors and attack vectors
 - Social engineering
-- Malware and vulnerabilities
+- Malware and attack techniques
+- Vulnerability management
 - Security architecture
 - Cloud and infrastructure security
+- Data protection
 - Security monitoring
 - Incident response
 - Digital forensics
-- Risk management and compliance
+- Risk management
+- Governance and compliance
 
 ---
 
-## 🟣 Phase 3 — Specialisation
+### 🟣 Phase 3 — Specialisation
 
-**Duration:** 30 Days  
-**Status:** 🔒 Coming Soon
+> **Status: 🔒 Coming Soon**
 
-The final phase focuses on developing specialised cybersecurity skills through a dedicated career track.
+The final phase of the journey focuses on developing specialised cybersecurity skills through a dedicated career track.
 
-### 🎯 Planned Track: SOC Analyst
+Available specialisation paths include:
 
-Focus areas will include:
+| Track | Focus |
+| :--- | :--- |
+| 🛡️ **SOC Analyst** | Detection, monitoring, analysis, and incident response |
+| 📋 **GRC Analyst** | Governance, risk management, compliance, and auditing |
 
-- Security monitoring
-- Alert triage and investigation
-- Log analysis
-- Network traffic analysis
-- SIEM fundamentals
-- Threat detection
-- Incident investigation
-- Incident response workflows
+The specialisation phase will focus on deeper practical knowledge, role-specific workflows, and real-world cybersecurity skills.
 
 ---
 
-# 📍 Current Progress
+## 📂 Repository Structure
 
 ```text
-Current Phase  : Phase 1 — Foundations
-Current Module : 1.1 — The Digital World
-Progress       : Day 17 / 90
-Status         : Actively Learning
-
-Progress is updated as I move through the roadmap and document new concepts, labs, and investigations.
-
-📂 Repository Structure
 MyFirstHack/
 │
 ├── 📁 Notes/
 │   │
-│   ├── Phase 1 : Foundation/
+│   ├── 📁 Phase 1 : Foundation/
 │   │   ├── 1.1 Digital World.md
 │   │   ├── 1.2 How Networks Work.md
 │   │   ├── 1.3 Linux & The Command Line.md
 │   │   └── 1.4 Cybersecurity Fundamentals.md
 │   │
-│   ├── Phase 2 : CompTIA Security+/
+│   ├── 📁 Phase 2 : CompTIA Security+/
 │   │   ├── 2.1 General Security Concepts.md
 │   │   ├── 2.2 Threats, Vulnerabilities & Mitigations.md
 │   │   ├── 2.3 Security Architecture.md
@@ -133,112 +119,133 @@ MyFirstHack/
 │   │   ├── 2.5 Governance, Risk & Compliance.md
 │   │   └── 2.6 Mock Exam.md
 │   │
-│   └── Phase 3 : Specialisation/
+│   └── 📁 Phase 3 : Specialisation/
 │
 ├── 📁 Portfolio/
-│   └── Investigation reports and practical security work
+│   └── Projects, labs, exercises, and reports completed
+│       during the MyFirstHack journey
 │
 ├── 📁 Resources/
 │   └── Useful references and learning materials
 │
 └── README.md
-📖 Documentation Approach
+```
 
-Instead of maintaining isolated notes for every individual day, this repository follows a module-based documentation structure.
+---
 
-Each roadmap module contains continuously updated notes arranged in learning order.
+## 📖 Documentation Approach
 
-For example:
+This repository follows a **module-based documentation approach** rather than maintaining dozens of isolated daily files.
 
-Phase 1 — Foundations
-        │
-        ├── The Digital World
-        │       ├── Day 01
-        │       ├── Day 02
-        │       ├── Day 03
-        │       └── ...
-        │
-        ├── How Networks Work
-        ├── Linux & The Command Line
-        └── Cybersecurity Fundamentals
+Each roadmap module has a dedicated Markdown file where the learning material is documented sequentially.
 
-This approach makes the repository easier to:
 
-🔍 Search
-📖 Read
-🔄 Revisit
-🧠 Revise
-📈 Expand over time
-🔎 Practical Work & Investigations
+This structure keeps related concepts together and makes the notes easier to:
 
-Cybersecurity is best learned by applying concepts in practical scenarios.
+- 🔍 **Search**
+- 📖 **Read**
+- 🔄 **Revisit**
+- 🧠 **Revise**
+- 📈 **Expand over time**
 
-The Portfolio section contains structured write-ups of security investigations and practical exercises completed throughout the journey.
+Instead of treating each day as an isolated entry, the repository gradually develops into a structured and revisitable cybersecurity knowledge base.
 
-These reports may include:
+---
 
-📧 Phishing email analysis
-🌐 Web security investigations
-🔍 OSINT-based investigations
-🧪 Security labs
-📊 Evidence analysis
-🛡️ Defensive security exercises
+## 🧪 Practical Learning
 
-Each investigation focuses on documenting the methodology, evidence, analysis process, findings, and key lessons learned.
+Cybersecurity cannot be learned through theory alone.
 
-🎯 Objectives
+Alongside technical notes, this repository also documents the practical work completed as part of the **MyFirstHack journey**.
+
+The `Portfolio` directory is reserved for:
+
+- 🛠️ Hands-on projects
+- 🧪 Practical labs
+- 📄 Technical reports
+- 💻 Security exercises
+- 🌐 Networking activities
+- 🐧 Linux exercises
+- 🔐 Cybersecurity assignments
+- 🚀 Future program-based projects
+
+Practical work will be added as it is completed throughout the roadmap.
+
+---
+
+## 🎯 Learning Objectives
 
 Through this journey, I aim to:
 
-Build strong cybersecurity fundamentals
-Understand how systems and networks operate
-Develop practical investigation skills
-Improve technical documentation
-Build familiarity with security tools and workflows
-Develop a security analyst mindset
-Create a transparent record of consistent learning and improvement
-Progress toward Security Operations and SOC Analyst roles
-🧰 Skills Being Developed
-Core Fundamentals
+- Build strong technical and cybersecurity fundamentals
+- Understand how computers, networks, and operating systems work
+- Develop confidence with Linux and the command line
+- Understand common security threats and defensive concepts
+- Learn practical cybersecurity tools and workflows
+- Improve technical documentation skills
+- Apply concepts through labs and projects
+- Build structured knowledge of Security+ domains
+- Develop role-specific skills through cybersecurity specialisation
+- Maintain a transparent record of consistent learning and improvement
 
-Computer Fundamentals Internet Architecture Web Fundamentals Authentication Password Security
+---
 
-Networking
+## 🧰 Skills Being Developed
 
-TCP/IP DNS Ports & Protocols Firewalls Packet Analysis Wireshark
+### 🌐 Technical Foundations
 
-Systems
+`Computer Fundamentals` · `Internet Architecture` · `Web Fundamentals` · `Data Fundamentals` · `Authentication` · `Password Security`
 
-Linux Bash Command Line System Administration Fundamentals
+### 🌍 Networking
 
-Cybersecurity
+`TCP/IP` · `IP Addressing` · `DNS` · `Ports` · `Protocols` · `Firewalls` · `Packet Analysis` · `Wireshark`
 
-Security Fundamentals Threat Analysis Vulnerability Concepts Incident Response Digital Forensics
+### 🐧 Linux & Systems
 
-Security Operations
+`Linux Fundamentals` · `Bash` · `Command Line` · `File Systems` · `Permissions` · `System Administration Basics`
 
-SOC Fundamentals Log Analysis Alert Investigation SIEM Concepts Network Traffic Analysis
+### 🔐 Cybersecurity
 
-📈 Journey Philosophy
+`CIA Triad` · `Security Controls` · `Threats` · `Vulnerabilities` · `Attack Concepts` · `Cryptography Fundamentals` · `Security Architecture`
 
-Consistency over speed. Understanding over memorisation. Practice over passive learning.
+### 🛡️ Security Operations
 
-The goal of this journey is not simply to complete a roadmap or collect certificates.
+`Security Monitoring` · `Log Analysis` · `Incident Response` · `Digital Forensics Concepts` · `Network Traffic Analysis` · `Security Operations Fundamentals`
 
-The goal is to build strong fundamentals, understand how security concepts work in real environments, practise investigation methodology, and document the entire learning process along the way.
+### 📋 Governance & Risk
 
-⚠️ Disclaimer
+`Risk Management` · `Security Frameworks` · `Governance` · `Compliance` · `Audit Fundamentals`
 
-All content in this repository is created for educational and ethical learning purposes only.
+---
 
-Security techniques, tools, and methodologies documented here are used only in authorised labs, controlled environments, and educational scenarios.
+## 🧠 Learning Philosophy
 
-🚀 Progress Continues
+> **Consistency over speed. Understanding over memorisation. Practice over passive learning.**
 
-This repository is actively maintained and updated as I move through the MyFirstHack roadmap.
+The purpose of this journey is not simply to complete a roadmap.
 
-New notes, practical exercises, investigation reports, and learning milestones will be added throughout the journey.
+The goal is to understand how technology works, build strong cybersecurity fundamentals, apply concepts through practical work, and create a knowledge base that remains useful long after the program is completed.
 
-Current Focus: 🌐 Phase 1.1 — The Digital World
+Every phase of this repository represents progress toward becoming a more capable and technically grounded cybersecurity professional.
 
-⭐ If you find this learning journey useful, feel free to explore the notes and practical investigation reports.
+---
+
+## ⚠️ Disclaimer
+
+All content in this repository is created for **educational and ethical learning purposes only**.
+
+Any security tools, techniques, commands, labs, or methodologies documented in this repository are used only in authorised environments, educational platforms, controlled labs, and systems where explicit permission has been provided.
+
+---
+
+## 🚀 The Journey Continues
+
+This repository is actively maintained as I progress through the **MyFirstHack Cybersecurity Roadmap**.
+
+Notes will continue to evolve, new phases will be unlocked, and projects, labs, exercises, and technical reports will be added throughout the journey.
+
+> **Learn the fundamentals. Understand the systems. Practice the skills. Document the journey.**
+
+---
+
+⭐ **Thanks for visiting my cybersecurity learning journey.**
