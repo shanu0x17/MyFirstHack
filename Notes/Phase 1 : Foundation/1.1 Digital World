@@ -1,1 +1,119 @@
+# 🌐 The Digital World
 
+> Phase 1.1 · Days 1–20
+
+This section documents my learning about computers,
+the internet, data, and the foundations of the digital world.
+
+---
+
+# Day 08 - Password Security
+
+## Key Learnings
+
+- Attacks
+   - Credential stuffing: Attacker downloads databse of username and password. Log into Amazon with the LinkedIn password. Log into your bank with the Adobe password. It works because people reuse passwords.
+   - Phishing: Convincing links and gets the password as user enter.
+   - Dictionary attacks: The attacker uses a list of the most common passwords and predictable variations
+   - Password spraying: The inverse of a dictionary attack. Instead of trying many passwords against one account, the attacker tries one common password (`Welcome123`) against thousands of accounts
+- Length is a number. Complexity is a ritual.
+- Every additional character roughly doubles the search space. Every additional character class (adding numbers, adding symbols) adds a small linear boost
+- The point of a password is not to look complicated. It is to be uniquely yours and long enough that searching for it isn't worth an attacker's time.
+
+---
+
+# Day 09 - Phishing
+
+## Key Learnings
+
+- Every phishing email on earth exploits the same three human patterns: urgency, authority, curiosity
+- Phishing defense isn't about being too smart to get caught. It's about building habits that don't require you to be smart
+- Hover before clicking. Every link. Every time
+- Never authenticate from an email link. Ever.
+- 2FA on everything important.
+- Treat urgency as a red flag, not a reason to hurry. 
+- Verify suspicious requests through a second channel
+
+---
+
+# Day 10 - DATA
+
+## Key Learnings
+
+- Categories of data:
+  1.Data about people(personally identifiable information)
+  2.Data that proves you are you(Credentials. Passwords, password hashes, session tokens, API keys,        SSH keys,etc.)  
+  3. Data that belongs to an organisation(Proprietary data. Source code, internal documents, financial      records)
+- The more permanent the data, the more valuable it is to steal
+
+---
+
+# Day 11 -  WEB
+
+## Key Learnings
+
+- Browser is the most trust-sensitive program on your device. Every page you load is a negotiation between code from many different sources
+- HTML — the structure, HTML carries forms
+- CSS — the style, CSS can hide things
+- JavaScript — the behaviour, JavaScript runs code in your browser
+
+---
+
+# Day 12 - HTTPS
+
+## Key Learnings
+
+- HTTPS encrypts the conversation so only your browser and the server can read it
+- HTTPS protects the channel, not the destination
+- browser and the server agreed on encryption, server presented a certificate, trusted third party vouched for that certificate
+- Anyone can get a free certificate for a domain in five minutes. The bar to clear is "I control this domain," not "I am trustworthy." Ex. lets encrypt
+- When a CA fails, every padlock signed by it instantly becomes a lie
+- Read URLs from right to left, not left to right — the rightmost dot tells you who actually owns it
+- DigiNotar story — the case study you'll see referenced in real security reports for years to come
+- ssllabs.com/ssltest - get back a graded report — A+, A, B, C, or worse. Below the grade, the report breaks down exactly which TLS versions the site supports, which ciphers, whether it has known vulnerabilities, and how its certificate chain is configured
+
+---
+
+# Day 13 - COOKIES
+
+## Key Learnings
+
+- A cookie is a small text file a website puts on your computer to remember something about you
+- The web is stateless — every page request stands alone. Cookies were invented to give it memory. They're the pass that the browser hands back to the server on every visit.
+- A cookie is just a small piece of text- A name and value, An expiry date, Security flags
+- A session cookie is a portable proof of who you are. Session cookies don't care who is holding them
+- Security flags:
+   1. Secure — tells the browser "only send this cookie over HTTPS, never over HTTP."
+   2. HttpOnly — tells the browser "don't let JavaScript on the page read this cookie"
+   3. SameSite — tells the browser when it's allowed to send the cookie on requests originating from other sites
+   4. Expires / Max-Age — how long the cookie lives
+
+---
+
+# Day 14 - WIFI
+
+## Key Learnings
+
+- Two passwords protect your home network: the Wi-Fi password and the router admin password
+- Wi-Fi encryption protects the metadata, not just the data
+- WPA3 is the current standard. WPA2-AES is acceptable. Anything older is broken
+- KRACK in 2017 was a reminder that Wi-Fi security can fail at the protocol level, not just at the password. Patches fixed it for modern devices
+- The new threats are subtler: evil twin networks, DNS manipulation, metadata surveillance. A VPN handles most of them
+- A home network audit takes ten minutes and follows a fixed list: admin password, encryption mode, Wi-Fi password strength, firmware date, guest network, remote management, connected devices
+
+---
+
+# Day 16 – Mobile Devices
+
+## Key Learnings
+
+- Why mobile is genuinely different:
+    - The OS is sandboxed by default, every app lives in its own sandbox. It cannot read another app's data unless you explicitly grant permission
+    - The user grants permissions in the moment
+    - Updates are out of your hands
+    - The attack surface is the messages, not the browser
+    - Biometrics replace passwords most of the time
+ - Pegasus shows what mobile compromise looks like when an attacker has no budget limit. The skills it requires are now industrial. Phones are surveillance platforms by accident of design — the question is who gets to use that surveillance.
+ - The day-to-day threats are smishing, malicious apps, sideloaded malware, and stolen unlocked devices. All five are attacks an analyst sees regularly
+ - A mobile audit is six checks: OS version, app permissions, lock screen, SMS 2FA exposure, app inventory, and Find My / Lockdown Mode. Same discipline as the Wi-Fi audit on Day 14.
+ - Mobile is one of the four layers a defender has to think about: web, network, device, and the cloud underneath.
