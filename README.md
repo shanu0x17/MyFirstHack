@@ -22,8 +22,8 @@ A 90-day foundation phase focused on developing a strong understanding of comput
 
 | Module | Focus Area | Duration | Status |
 | :--- | :--- | :---: | :---: |
-| **1.1** | 🌐 The Digital World | Days 1–20 | 🟡 In Progress |
-| **1.2** | 🌍 How Networks Work | Days 21–45 | ⚪ Upcoming |
+| **1.1** | 🌐 The Digital World | Days 1–20 | [x]Completed |
+| **1.2** | 🌍 How Networks Work | Days 21–45 | 🟡 In Progress  |
 | **1.3** | 🐧 Linux & The Command Line | Days 46–65 | ⚪ Upcoming |
 | **1.4** | 🔐 Cybersecurity Fundamentals | Days 66–90 | ⚪ Upcoming |
 
