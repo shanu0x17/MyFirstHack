@@ -40,7 +40,7 @@ LOWER-VALUE (annoying to lose, replaceable)
 
 ---
 ------------------------------------------------------------
- ##3. WHO MIGHT WANT TO HARM YOU?
+ ## 3. WHO MIGHT WANT TO HARM YOU?
 ------------------------------------------------------------
 
 - OPPORTUNISTIC ATTACKERS (cast wide nets, take what's easy)
@@ -106,14 +106,14 @@ Top realistic threats for your profile:
 
 ---
 ------------------------------------------------------------
- ##6. WHAT YOU ARE NOT TRYING TO DEFEND AGAINST
+ ## 6. WHAT YOU ARE NOT TRYING TO DEFEND AGAINST
 ------------------------------------------------------------
 
 Not defending against
  nation-state surveillance, sustained physical surveillance,
  or insider threats from current employer's IT team
 
-
+---
 ============================================================
- END OF MODEL
+ ## END OF MODEL
 ============================================================
