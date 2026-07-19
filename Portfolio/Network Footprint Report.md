@@ -1,119 +1,129 @@
-============================================================
- NETWORK FOOTPRINT REPORT
-============================================================
+# 🌐 Network Footprint Report
 
-Analyst:        Shantanu Gayke
-Analysis Date:  19th July, 2026
-Engagement:     Passive Reconnaissance of [Target Domain]
-Methodology:    DNS > WHOIS > Certificates > Technology
+## Analyst Information
 
+| Field | Details |
+|-------|---------|
+| **Analyst** | Shantanu Gayke |
+| **Analysis Date** | 19 July 2026 |
+| **Engagement Type** | Passive Reconnaissance |
+| **Target** | https://shivchhatrapaticollege.org/ |
+| **Methodology** | DNS → WHOIS → Certificate Transparency → Technology Fingerprinting |
 
-------------------------------------------------------------
- 1. TARGET SUMMARY
-------------------------------------------------------------
+> **Disclaimer:** This assessment was conducted using only publicly available information. No active scanning, exploitation, or interaction with the target infrastructure was performed.
 
-Domain:          [e.g. example-shop.com]
-Description:     [e.g. Small online clothing retailer]
-Reason chosen:   [e.g. Real small-business website for analysis]
-Scope:           Passive reconnaissance only — public sources
-                 only, no scanning, no probing, no interaction
-                 with target infrastructure
+---
 
+# Target Summary
 
-------------------------------------------------------------
- 2. EXECUTIVE SUMMARY
-------------------------------------------------------------
+| Item | Details |
+|------|---------|
+| **Domain** | https://shivchhatrapaticollege.org/ |
+| **Description** | Educational institution website located in Chhatrapati Sambhajinagar, Maharashtra |
+| **Reason for Selection** | Medium-sized educational organization suitable for passive reconnaissance practice |
+| **Scope** | Public OSINT only (DNS, WHOIS, Certificate Transparency and Technology Enumeration) |
 
-[Two to three sentences summarising what the public footprint
- reveals. Example: "Target operates on Shopify with Cloudflare
- in front of the origin. DNS shows mail handled by Google
- Workspace. Three subdomains discovered via certificate
- transparency — including a staging environment that appears
- publicly resolvable. WHOIS shows a 4-year-old domain
- registered via GoDaddy with privacy protection enabled."]
+---
 
+# Executive Summary
 
-------------------------------------------------------------
- 3. DNS RECORDS
-------------------------------------------------------------
+A passive reconnaissance assessment was performed against **shivchhatrapaticollege.org** to identify publicly accessible infrastructure and technology information. The investigation indicates that the website is hosted on **Hostinger**, while DNS resolution utilizes **Cloudflare's DNS infrastructure**. Email services are also managed through Hostinger.
 
-A record(s):       [e.g. 104.21.45.182, 172.67.198.74
-                   — both Cloudflare-owned ranges]
-MX record(s):      [e.g. aspmx.l.google.com — Google Workspace]
-NS record(s):      [e.g. dana.ns.cloudflare.com,
-                   ed.ns.cloudflare.com — Cloudflare DNS]
-TXT record(s):     [e.g. SPF: v=spf1 include:_spf.google.com ~all
-                   Google site verification token]
-Other notable:     [e.g. CNAME for shopify-store.myshopify.com]
+Certificate Transparency logs reveal several publicly visible service-related subdomains such as **cpanel**, **webmail**, and **webdisk**, which indicate the presence of administrative services. The technology stack is primarily based on **WordPress** with the **Eduma** theme and supporting PHP-based components. Overall, the domain appears to be an established educational website with a long operational history and no immediately critical findings from passive reconnaissance.
 
+---
 
-------------------------------------------------------------
- 4. WHOIS
-------------------------------------------------------------
+# DNS Records
 
-Registrar:         [e.g. GoDaddy.com, LLC]
-Registration date: [e.g. 14 May 2022]
-Expiration date:   [e.g. 14 May 2027]
-Registrant:        [e.g. Privacy protected — Domains by Proxy]
-Contact email:     [e.g. Privacy protected]
-Domain age:        [e.g. 4 years (healthy for established brand)]
+| Record Type | Value |
+|-------------|-------|
+| **A Record** | `92.112.198.111` |
+| **MX Records** | `mx1.hostinger.com`<br>`mx2.hostinger.com` |
+| **NS Records** | `ns1.dns-parking.com`<br>`ns2.dns-parking.com` |
+| **TXT Record** | `v=spf1 include:_spf.mail.hostinger.com ~all` |
 
+### Key Findings
 
-------------------------------------------------------------
- 5. CERTIFICATE TRANSPARENCY
-------------------------------------------------------------
+- Website resolves to **Hostinger International Limited (AS47583)**.
+- Email services are configured through **Hostinger Mail**.
+- Authoritative DNS servers (`dns-parking.com`) resolve through Cloudflare infrastructure, indicating Cloudflare is used for DNS resolution.
+- SPF record is configured to authorize Hostinger mail servers.
 
-Total certs issued: [e.g. 47]
-CA used most:       [e.g. Let's Encrypt — automated renewal]
-Subdomains found:   [list any interesting subdomains, e.g.
-                     - www.example-shop.com
-                     - shop.example-shop.com
-                     - staging.example-shop.com
-                     - admin.example-shop.com]
-Notable findings:   [e.g. staging.example-shop.com appears
-                     active and publicly resolvable — common
-                     forgotten-environment exposure pattern]
+---
 
+# WHOIS Information
 
-------------------------------------------------------------
- 6. TECHNOLOGY PROFILE
-------------------------------------------------------------
+| Field | Value |
+|-------|-------|
+| **Registrar** | GoDaddy.com, LLC |
+| **Registration Date** | 11 December 2010 |
+| **Expiration Date** | 11 December 2026 |
+| **Registrant** | Registration Private |
+| **Registrant Country** | United States |
+| **Contact** | https://www.godaddy.com/whois/results.aspx?domain=shivchhatrapaticollege.org&action=contactDomainOwner |
+| **Domain Age** | Approximately 15 years |
 
-Server software:   [e.g. cloudflare (reverse proxy)]
-CMS/framework:     [e.g. Shopify]
-Analytics:         [e.g. Google Analytics, Facebook Pixel]
-Hosting provider:  [e.g. Shopify origin behind Cloudflare]
-Other tech:        [e.g. jQuery 3.5.1, Klaviyo email marketing,
-                    Hotjar session recording]
+---
 
+# Certificate Transparency
 
-------------------------------------------------------------
- 7. OBSERVATIONS
-------------------------------------------------------------
+| Field | Value |
+|-------|-------|
+| **Certificates Issued** | 123 |
+| **Primary CA** | Let's Encrypt |
 
-[Two or three sentences on what stood out from the analysis.
- Example: "The staging environment exposure is the most
- notable finding — it's a common pattern where development
- environments are forgotten in DNS but still serve traffic.
- The technology stack is appropriate for the business size.
- Domain age and registrar are unremarkable, suggesting an
- established, legitimate operation."]
+### Discovered Subdomains
 
+- `mail.shivchhatrapati.org`
+- `cpanel.shivchhatrapaticollege.org`
+- `webdisk.shivchhatrapaticollege.org`
+- `webmail.shivchhatrapaticollege.org`
 
-------------------------------------------------------------
- 8. RECOMMENDATIONS
-------------------------------------------------------------
+### Notes
 
-If briefing the target's security team:
-  [ ] [e.g. Assess staging.example-shop.com for inadvertent
-          information disclosure; restrict to authenticated
-          access or remove from public DNS]
-  [ ] [e.g. Confirm Shopify origin IP is not publicly reachable
-          outside of Cloudflare]
-  [ ] [e.g. Review WHOIS privacy settings are aligned with
-          internal policy]
+No suspicious or abandoned subdomains were identified through passive analysis. Most discovered entries appear to support hosting and administrative services.
 
+---
 
-============================================================
- END OF REPORT
-============================================================
+# Technology Profile
+
+| Category | Technology |
+|----------|------------|
+| **Hosting Provider** | Hostinger |
+| **CMS** | WordPress |
+| **Theme** | Eduma |
+| **Vendor** | ThimPress |
+| **Programming Language** | PHP |
+| **Libraries** | jQuery, Lightbox |
+| **Other Components** | H5P, Google Static (GStatic) |
+
+---
+
+# Observations
+
+- The target has maintained an active internet presence for approximately **15 years**, indicating a well-established domain.
+- Hosting and email infrastructure are consolidated under **Hostinger**, simplifying infrastructure management.
+- Multiple administrative service subdomains (**cpanel**, **webmail**, and **webdisk**) are publicly visible through Certificate Transparency logs. While this is common for shared hosting environments, these services should be properly secured and exposed only when necessary.
+- The website is built on **WordPress**, which requires regular updates to plugins, themes, and the core platform to minimize security risks.
+
+---
+
+# Recommendations
+
+- Review whether administrative services such as **cpanel**, **webmail**, and **webdisk** need to remain publicly accessible. Restrict access where possible using IP allowlists, VPNs, or multi-factor authentication.
+- Ensure the **WordPress core**, installed plugins, and the **Eduma** theme are updated regularly to reduce exposure to known vulnerabilities.
+- Periodically review DNS records and remove any obsolete or unused entries to minimize the public attack surface.
+- Continue monitoring Certificate Transparency logs to identify newly issued certificates or unexpected subdomains.
+- Verify that email authentication mechanisms (**SPF**, and where applicable **DKIM** and **DMARC**) remain correctly configured to strengthen email security.
+- Perform periodic vulnerability assessments and security reviews to ensure the infrastructure remains secure over time.
+
+---
+
+# Conclusion
+
+This passive reconnaissance exercise identified the publicly exposed infrastructure, DNS configuration, certificate information, and technology stack of **shivchhatrapaticollege.org** without interacting with the target systems. No critical security issues were observed through publicly available information alone. However, the presence of administrative subdomains and the use of a WordPress-based platform emphasize the importance of continuous maintenance, secure configuration, and regular security monitoring.
+
+---
+**Analysis Type:** Passive Reconnaissance (OSINT Only)
+
+**Tools Used:** nslookup, WHOIS, crt.sh, Netcraft, Wappalyzer, BuiltWith, SecurityTrails (where applicable)
